@@ -1,0 +1,335 @@
+[
+  {
+    "mob": "VillagerGolem",
+    "player": true,
+    "item": "contenttweaker:golem_arm_bone",
+    "itemcount": "0-1/0-2/1-3"
+  },
+  {
+    "mob": "minecraft:guardian",
+    "player": true,
+    "random": 0.5,
+    "item": "contenttweaker:guardian_lamprey",
+    "itemcount": "1-2/1-3/2-3"
+  },
+  {
+    "mob": "minecraft:elder_guardian",
+    "player": true,
+    "item": "contenttweaker:guardian_lamprey",
+    "itemcount": "1-2/1-3/2-3"
+  },
+  {
+    "mob": "minecraft:blaze",
+    "remove": "minecraft:blaze_rod"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "player": true,
+    "random": 0.005,
+    "item": "ebwizardry:storage_upgrade"
+  },
+  {
+    "mob": "twilightforest:quest_ram",
+    "player": true,
+    "item": "ebwizardry:range_upgrade",
+    "itemcount": "2/2/2"
+  },
+  {
+    "mob": "endthereal:eetle",
+    "player": true,
+    "random": 0.1,
+    "item": "ebwizardry:siphon_upgrade"
+  },
+  {
+    "mob": "minecraft:pig",
+    "remove": "minestrapp:m_mob_loot@4"
+  },
+  {
+    "mob": "minecraft:horse",
+    "remove": "minestrapp:m_mob_loot@3"
+  },
+  {
+    "mob": "minecraft:horse",
+    "item": "leatherworks:rawhide_horse",
+    "itemcount": "0-1/0-2/1-2"
+  },
+  {
+    "mob": "minecraft:donkey",
+    "remove": "minestrapp:m_mob_loot@3"
+  },
+  {
+    "mob": "minecraft:donkey",
+    "item": "leatherworks:rawhide_donkey",
+    "itemcount": "0-1/0-2/1-2"
+  },
+  {
+    "mob": "minecraft:mule",
+    "remove": "minestrapp:m_mob_loot@3"
+  },
+  {
+    "mob": "minecraft:mule",
+    "item": "leatherworks:rawhide_mule",
+    "itemcount": "0-1/0-2/1-2"
+  },
+  {
+    "mob": "minecraft:wolf",
+    "remove": "minestrapp:m_mob_loot@5"
+  },
+  {
+    "mob": "minecraft:polar_bear",
+    "remove": "bearwithme:hide_bear@3"
+  },
+  {
+    "mob": "minecraft:polar_bear",
+    "remove": "minestrapp:m_mob_loot@6"
+  },
+  {
+    "mob": "minecraft:llama",
+    "item": "leatherworks:rawhide_llama",
+    "itemcount": "0-1/0-2/1-2"
+  },
+  {
+    "mob": "twilightforest:deer",
+    "remove": "leatherworks:rawhide_cow"
+  },
+  {
+    "mob": "twilightforest:deer",
+    "item": "leatherworks:rawhide_deer",
+    "itemcount": "0-1/0-2/1-2"
+  },
+  {
+    "mob": "twilightforest:wild_boar",
+    "remove": "leatherworks:rawhide_pig"
+  },
+  {
+    "mob": "twilightforest:wild_boar",
+    "remove": "minestrapp:m_mob_loot@4"
+  },
+  {
+    "mob": "twilightforest:wild_boar",
+    "item": "leatherworks:rawhide_boar",
+    "itemcount": "0-1/0-2/1-2"
+  },
+  {
+    "mob": "twilightforest:minotaur",
+    "item": "leatherworks:rawhide_cow",
+    "itemcount": "0-2/1-2/2-3"
+  },
+  {
+    "mob": "twilightforest:minoshroom",
+    "item": "leatherworks:rawhide_mooshrom",
+    "itemcount": "1-2/2-3/2-4"
+  },
+  {
+    "mob": "bearwithme:entities/grizzly_bear",
+    "remove": "leatherworks:rawhide_polarbear"
+  },
+  {
+    "mob": "bearwithme:entities/black_bear",
+    "remove": "leatherworks:rawhide_polarbear"
+  },
+  {
+    "mob": "bearwithme:entities/panda_bear",
+    "remove": "leatherworks:rawhide_polarbear"
+  },
+  {
+    "mob": "minecraft:llama",
+    "remove": "minestrapp:m_mob_loot"
+  },
+  {
+    "mob": "minecraft:llama",
+    "item": "minestrapp:m_mob_loot",
+    "itemcount": "0-1/1-2/1-3"
+  },
+  {
+    "mob": "minecraft:polar_bear",
+    "item": "minestrapp:m_mob_loot",
+    "itemcount": "1-3/2-3/3-4"
+  },
+  {
+    "mob": "bearwithme:entities/grizzly_bear",
+    "item": "minestrapp:m_mob_loot",
+    "itemcount": "1-3/2-3/3-4"
+  },
+  {
+    "mob": "bearwithme:entities/black_bear",
+    "item": "minestrapp:m_mob_loot",
+    "itemcount": "1-3/2-3/3-4"
+  },
+  {
+    "mob": "bearwithme:entities/panda_bear",
+    "item": "minestrapp:m_mob_loot",
+    "itemcount": "1-3/2-3/3-4"
+  },
+  {
+    "mob": "twilightforest:deer",
+    "item": "minestrapp:m_mob_loot",
+    "itemcount": "0-2/1-3/2-3"
+  },
+  {
+    "mob": "twilightforest:minotaur",
+    "item": "minestrapp:m_mob_loot",
+    "itemcount": "0-1/1-2/2-3"
+  },
+  {
+    "mob": "twilightforest:minoshroom",
+    "item": "minestrapp:m_mob_loot",
+    "itemcount": "1-3/2-4/3-4"
+  },
+  {
+    "mob": "nex:salamander",
+    "item": "minestrapp:m_mob_loot",
+    "itemcount": "0-1/1/1-2"
+  },
+  {
+    "mob": "babymobs:babycreeper",
+    "remove": "minecraft:gunpowder"
+  },
+  {
+    "mob": "babymobs:babycreeper",
+    "item": "betterwithmods:material@26",
+    "itemcount": "0-1/1-2/2-3"
+  },
+  {
+    "mob": "babymobs:babyghast",
+    "remove": "minecraft:gunpowder"
+  },
+  {
+    "mob": "babymobs:babyghast",
+    "item": "betterwithmods:material@26",
+    "itemcount": "1-2/2-3/3"
+  },
+  {
+    "mob": "babymobs:babywitch",
+    "remove": "minecraft:gunpowder"
+  },
+  {
+    "mob": "minecraft:witch",
+    "remove": "xreliquary:witch_hat"
+  },
+  {
+    "mob": "babymobs:babywitch",
+    "remove": "xreliquary:witch_hat"
+  },
+  {
+    "mob": "twilightforest:mini_ghast",
+    "remove": "minecraft:gunpowder"
+  },
+  {
+    "mob": "twilightforest:mini_ghast",
+    "item": "betterwithmods:material@26",
+    "itemcount": "0-1/0-2/0-2"
+  },
+  {
+    "mob": "twilightforest:mini_ghast",
+    "random": 0.3,
+    "item": "nex:ghast_meat_raw"
+  },
+  {
+    "mob": "twilightforest:tower_ghast",
+    "remove": "minecraft:gunpowder"
+  },
+  {
+    "mob": "twilightforest:tower_ghast",
+    "item": "betterwithmods:material@26",
+    "itemcount": "0-2/1-3/2-3"
+  },
+  {
+    "mob": "twilightforest:tower_ghast",
+    "random": 0.1,
+    "item": "xreliquary:mob_ingredient@3"
+  },
+  {
+    "mob": "twilightforest:tower_ghast",
+    "item": "nex:ghast_meat_raw",
+    "itemcount": "0-1/0-2/1-3"
+  },
+  {
+    "mob": "nex:ghastling",
+    "remove": "minecraft:gunpowder"
+  },
+  {
+    "mob": "nex:ghastling",
+    "random": 0.3,
+    "item": "betterwithmods:material@26"
+  },
+  {
+    "mob": "nex:ghast_queen",
+    "remove": "minecraft:gunpowder"
+  },
+  {
+    "mob": "nex:ghast_queen",
+    "item": "betterwithmods:material@26",
+    "itemcount": "5-6/7-9/8-10"
+  },
+  {
+    "mob": "nex:ghast_queen",
+    "item": "xreliquary:mob_ingredient@3",
+    "itemcount": "0-1/0-2/0-2"
+  },
+  {
+    "mob": "nex:ghast_queen",
+    "item": "nex:ghast_meat_raw",
+    "itemcount": "2-3/3-4/5-6"
+  },
+  {
+    "mob": "twilightforest:hedge_spider",
+    "random": 0.05,
+    "item": "xreliquary:mob_ingredient@2"
+  },
+  {
+    "mob": "twilightforest:hedge_spider",
+    "random": 0.3,
+    "item": "venomousfangs:venomous_fang"
+  },
+  {
+    "mob": "twilightforest:king_spider",
+    "random": 0.3,
+    "item": "xreliquary:mob_ingredient@2"
+  },
+  {
+    "mob": "minecraft:witch",
+    "remove": "minecraft:redstone"
+  },
+  {
+    "mob": "minecraft:witch",
+    "remove": "minecraft:glowstone_dust"
+  },
+  {
+    "mob": "minecraft:witch",
+    "random": 0.6,
+    "item": "minecraft:redstone/{display:{Name:\"Vial of Redstone\"}}",
+    "itemcount": "0-1/0-2/1-3"
+  },
+  {
+    "mob": "minecraft:witch",
+    "random": 0.4,
+    "item": "minecraft:glowstone_dust/{display:{Name:\"Vial of Glowstone\"}}",
+    "itemcount": "0-1/0-2/1-3"
+  },
+  {
+    "mob": "minecraft:witch",
+    "random": 0.025,
+    "item": "minecraft:diamond/{ench:[{lvl:1,id:71}],display:{Name:\"Cursed Diamond\"}}"
+  },
+  {
+    "mob": "babymobs:babywitch",
+    "remove": "minecraft:redstone"
+  },
+  {
+    "mob": "babymobs:babywitch",
+    "remove": "minecraft:glowstone_dust"
+  },
+  {
+    "mob": "babymobs:babywitch",
+    "random": 0.6,
+    "item": "minecraft:redstone/{display:{Name:\"Vial of Redstone\"}}",
+    "itemcount": "0-1/0-2/1-3"
+  },
+  {
+    "mob": "babymobs:babywitch",
+    "random": 0.4,
+    "item": "minecraft:glowstone_dust/{display:{Name:\"Vial of Glowstone\"}}",
+    "itemcount": "0-1/0-2/1-3"
+  }
+]

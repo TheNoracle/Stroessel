@@ -62,14 +62,6 @@
       "minGroupCount": 1,
       "maxGroupCount": 4,
       "spawn": true
-    },
-    {
-      "entity": "mowziesmobs:barakoana",
-      "creatureType": "monster",
-      "weight": 4,
-      "minGroupCount": 1,
-      "maxGroupCount": 1,
-      "spawn": true
     }
   ],
   "features": [
