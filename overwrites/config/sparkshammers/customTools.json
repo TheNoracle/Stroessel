@@ -1,0 +1,105 @@
+[
+    {
+        "MaterialName": "wood",
+        "LocalisedName": "Wood",
+        "HarvestLevel": 0,
+        "Durability": 354,
+        "Efficiency": 1.2000000476837158,
+        "AttackDamage": 3.0,
+        "Enchantability": 15,
+        "TextureColour": 8807718,
+        "DependantOreDic": "plankWood"
+    },
+    {
+        "MaterialName": "stone",
+        "LocalisedName": "Stone",
+        "HarvestLevel": 1,
+        "Durability": 786,
+        "Efficiency": 2.4000000953674316,
+        "AttackDamage": 4.0,
+        "Enchantability": 5,
+        "TextureColour": 10132122,
+        "DependantOreDic": "cobblestone"
+    },
+    {
+        "MaterialName": "iron",
+        "LocalisedName": "Iron",
+        "HarvestLevel": 2,
+        "Durability": 1500,
+        "Efficiency": 3.5999999046325684,
+        "AttackDamage": 5.0,
+        "Enchantability": 14,
+        "TextureColour": 16777215,
+        "DependantOreDic": "ingotIron"
+    },
+    {
+        "MaterialName": "gold",
+        "LocalisedName": "Gold",
+        "HarvestLevel": 0,
+        "Durability": 192,
+        "Efficiency": 7.199999809265137,
+        "AttackDamage": 3.0,
+        "Enchantability": 22,
+        "TextureColour": 16710009,
+        "DependantOreDic": "ingotGold"
+    },
+    {
+        "MaterialName": "diamond",
+        "LocalisedName": "Diamond",
+        "HarvestLevel": 3,
+        "Durability": 9366,
+        "Efficiency": 4.800000190734863,
+        "AttackDamage": 6.0,
+        "Enchantability": 10,
+        "TextureColour": 5427195,
+        "DependantOreDic": "gemDiamond"
+    },
+    {
+        "MaterialName": "giant",
+        "LocalisedName": "Giant",
+        "HarvestLevel": 2,
+        "Durability": 9000,
+        "Efficiency": 1.7999999523162842,
+        "AttackDamage": 8.0,
+        "Enchantability": 10,
+        "TextureColour": 9788612
+    },
+    {
+        "MaterialName": "mini",
+        "LocalisedName": "Mini",
+        "HarvestLevel": 2,
+        "Durability": 750,
+        "Efficiency": 3.5999999046325684,
+        "AttackDamage": 3.5,
+        "Enchantability": 14
+    },
+    {
+        "MaterialName": "mjolnir",
+        "LocalisedName": "Mjolnir",
+        "HarvestLevel": 2147483647,
+        "Durability": 1,
+        "Efficiency": 10.0,
+        "AttackDamage": 10.0,
+        "Enchantability": 0
+    },
+    {
+        "MaterialName": "netherstar",
+        "LocalisedName": "Nether Star",
+        "HarvestLevel": 3,
+        "Durability": 10,
+        "Efficiency": 5.0,
+        "AttackDamage": 40.0,
+        "Enchantability": 0
+    },
+    {
+        "MaterialName": "steel",
+        "LocalisedName": "Refined",
+        "HarvestLevel": 3,
+        "Durability": 12000,
+        "Efficiency": 5.800000190734863,
+        "AttackDamage": 8.0,
+        "Enchantability": 14,
+        "TextureColour": 6645093,
+	"DependantOreDic": "ingotSoulforgedSteel"
+    }
+]

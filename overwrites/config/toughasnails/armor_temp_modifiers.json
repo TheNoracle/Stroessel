@@ -1,0 +1,49 @@
+[
+  {
+    "names": [
+      "toughasnails:jelled_slime_helmet",
+      "toughasnails:jelled_slime_chestplate",
+      "toughasnails:jelled_slime_leggings",
+      "toughasnails:jelled_slime_boots",
+      "aether_legacy:neptune_helmet",
+      "aether_legacy:neptune_chestplate",
+      "aether_legacy:neptune_leggings",
+      "aether_legacy:neptune_boots",
+      "nex:salamander_hide_helmet",
+      "nex:salamander_hide_chestplate",
+      "nex:salamander_hide_leggings",
+      "nex:salamander_hide_boots"
+    ],
+    "modifier": -1
+  },
+  {
+    "names": [
+      "toughasnails:wool_helmet",
+      "toughasnails:wool_chestplate",
+      "toughasnails:wool_leggings",
+      "toughasnails:wool_boots",
+      "twilightforest:yeti_helmet",
+      "twilightforest:yeti_chestplate",
+      "twilightforest:yeti_leggings>",
+      "twilightforest:yeti_boots",
+      "twilightforest:arctic_helmet",
+      "twilightforest:arctic_chestplate",
+      "twilightforest:arctic_leggings",
+      "twilightforest:arctic_boots"
+    ],
+    "modifier": 1
+  },
+  {
+    "names": [
+      "aether_legacy:phoenix_helmet",
+      "aether_legacy:phoenix_chestplate",
+      "aether_legacy:phoenix_leggings",
+      "aether_legacy:phoenix_boots",
+      "twilightforest:fiery_helmet",
+      "twilightforest:fiery_chestplate",
+      "twilightforest:fiery_leggings",
+      "twilightforest:fiery_boots"
+    ],
+    "modifier": 2
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "models": 
+  [
+    {
+      "model": "zombie_right_arm_alex.jpm",
+      "part": "right_arm", 
+	  "attach": true,
+      "translate": [ 7, 10, -8],
+      "rotate": [0, 0, 0]
+    },
+	{
+      "model": "zombie_left_arm_alex.jpm",
+      "part": "left_arm", 
+	  "attach": true,
+      "translate": [ 8, 10, -8],
+      "rotate": [0, 0, 0]
+    }
+  ]
+}

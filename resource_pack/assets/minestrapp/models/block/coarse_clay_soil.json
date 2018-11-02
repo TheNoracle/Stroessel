@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "minestrapp:blocks/soil/coarse_clay_soil",
+        "side": "minestrapp:blocks/soil/clay_soil_side"
+    }
+}
