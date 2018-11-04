@@ -1,6 +1,24 @@
-//Building Blocks Revisited!
+////*BUILDING BLOCKS*////
 
-//Stairs Consistency
+
+////COBBLESTONE////
+recipes.remove(<minecraft:cobblestone>);
+recipes.remove(<minestrapp:m_cobblestone>);
+recipes.remove(<minestrapp:m_cobblestone:3>);
+recipes.remove(<minestrapp:m_cobblestone:6>);
+recipes.remove(<minestrapp:m_cobblestone:7>);
+recipes.remove(<minecraft:netherrack>);
+recipes.remove(<minecraft:end_stone>);
+recipes.addShaped(<minecraft:cobblestone> * 2, [[<minestrapp:m_chunks:1>, <minestrapp:m_chunks:1>, <minestrapp:m_chunks:1>], [<minestrapp:m_chunks:1>, <minecraft:clay_ball>, <minestrapp:m_chunks:1>], [<minestrapp:m_chunks:1>, <minestrapp:m_chunks:1>, <minestrapp:m_chunks:1>]]);
+recipes.addShaped(<minestrapp:m_cobblestone> * 2, [[<minestrapp:m_chunks>, <minestrapp:m_chunks>, <minestrapp:m_chunks>], [<minestrapp:m_chunks>, <minecraft:clay_ball>, <minestrapp:m_chunks>], [<minestrapp:m_chunks>, <minestrapp:m_chunks>, <minestrapp:m_chunks>]]);
+recipes.addShaped(<minestrapp:m_cobblestone:3> * 2, [[<minestrapp:m_chunks:2>, <minestrapp:m_chunks:2>, <minestrapp:m_chunks:2>], [<minestrapp:m_chunks:2>, <minecraft:clay_ball>, <minestrapp:m_chunks:2>], [<minestrapp:m_chunks:2>, <minestrapp:m_chunks:2>, <minestrapp:m_chunks:2>]]);
+recipes.addShaped(<minestrapp:m_cobblestone:5> * 2, [[<minestrapp:m_chunks:3>, <minestrapp:m_chunks:3>, <minestrapp:m_chunks:3>], [<minestrapp:m_chunks:3>, <minecraft:clay_ball>, <minestrapp:m_chunks:3>], [<minestrapp:m_chunks:3>, <minestrapp:m_chunks:3>, <minestrapp:m_chunks:3>]]);
+recipes.addShaped(<minestrapp:m_cobblestone:7> * 2, [[<minestrapp:m_chunks:4>, <minestrapp:m_chunks:4>, <minestrapp:m_chunks:4>], [<minestrapp:m_chunks:4>, <minecraft:clay_ball>, <minestrapp:m_chunks:4>], [<minestrapp:m_chunks:4>, <minestrapp:m_chunks:4>, <minestrapp:m_chunks:4>]]);
+recipes.addShaped(<minecraft:netherrack> * 2, [[<minestrapp:m_chunks:5>, <minestrapp:m_chunks:5>, <minestrapp:m_chunks:5>], [<minestrapp:m_chunks:5>, <betterwithmods:material:35>, <minestrapp:m_chunks:5>], [<minestrapp:m_chunks:5>, <minestrapp:m_chunks:5>, <minestrapp:m_chunks:5>]]);
+recipes.addShaped(<minecraft:end_stone> * 2, [[<minestrapp:m_chunks:6>, <minestrapp:m_chunks:6>, <minestrapp:m_chunks:6>], [<minestrapp:m_chunks:6>, <minecraft:clay_ball>, <minestrapp:m_chunks:6>], [<minestrapp:m_chunks:6>, <minestrapp:m_chunks:6>, <minestrapp:m_chunks:6>]]);
+
+
+////STAIRS////
 recipes.remove(<minecraft:stone_stairs>);
 recipes.addShaped(<minecraft:stone_stairs> * 8, [[<minecraft:cobblestone>, null, null], [<minecraft:cobblestone>, <minecraft:cobblestone>, null], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
 recipes.remove(<minecraft:brick_stairs>);
@@ -10,7 +28,8 @@ mods.jei.JEI.removeAndHide(<nex:basalt_pillar_stairs>);
 recipes.remove(<saltmod:salt_brick_stairs>);
 recipes.addShaped(<saltmod:salt_brick_stairs> * 8, [[<saltmod:salt_block:5>, null, null], [<saltmod:salt_block:5>, <saltmod:salt_block:5>, null], [<saltmod:salt_block:5>, <saltmod:salt_block:5>, <saltmod:salt_block:5>]]);
 
-//Removing Walls
+
+////WALLS////
 mods.jei.JEI.removeAndHide(<nex:basalt_wall:3>);
 mods.jei.JEI.removeAndHide(<nex:vanilla_wall:1>);
 mods.jei.JEI.removeAndHide(<nex:vanilla_wall:2>);
@@ -29,14 +48,23 @@ mods.jei.JEI.removeAndHide(<nex:basalt_brick_fence_gate>);
 mods.jei.JEI.removeAndHide(<nex:basalt_fence:3>);
 mods.jei.JEI.removeAndHide(<nex:basalt_pillar_fence_gate>);
 
-//Fence Consistency
+
+////FENCES////
+mods.jei.JEI.removeAndHide(<quark:nether_brick_fence_gate>);
+recipes.remove(<nex:basalt>);
+recipes.remove(<nex:nether_brick_fence>);
+recipes.remove(<nex:nether_brick_fence:3>);
+recipes.remove(<nex:nether_brick_fence:1>);
+recipes.remove(<nex:nether_brick_fence:2>);
+recipes.remove(<nex:vanilla_fence:1>);
 recipes.addShaped(<nex:vanilla_fence:1> * 6, [[<minecraft:red_nether_brick>, <minecraft:red_nether_brick>, <minecraft:red_nether_brick>], [<minecraft:red_nether_brick>, <minecraft:red_nether_brick>, <minecraft:red_nether_brick>]]);
 recipes.addShaped(<nex:nether_brick_fence> * 6, [[<nex:nether_brick>, <nex:nether_brick>, <nex:nether_brick>], [<nex:nether_brick>, <nex:nether_brick>, <nex:nether_brick>]]);
 recipes.addShaped(<nex:nether_brick_fence:3> * 6, [[<nex:nether_brick:3>, <nex:nether_brick:3>, <nex:nether_brick:3>], [<nex:nether_brick:3>, <nex:nether_brick:3>, <nex:nether_brick:3>]]);
 recipes.addShaped(<nex:nether_brick_fence:1> * 6, [[<nex:nether_brick:1>, <nex:nether_brick:1>, <nex:nether_brick:1>], [<nex:nether_brick:1>, <nex:nether_brick:1>, <nex:nether_brick:1>]]);
 recipes.addShaped(<nex:nether_brick_fence:2> * 6, [[<nex:nether_brick:2>, <nex:nether_brick:2>, <nex:nether_brick:2>], [<nex:nether_brick:2>, <nex:nether_brick:2>, <nex:nether_brick:2>]]);
 
-//Mossy Stone
+
+////MOSSY STONE////
 recipes.addShapeless(<minecraft:stonebrick:1>, [<minecraft:stonebrick>, <twilightforest:twilight_plant>]);
 recipes.remove(<betterwithaddons:whitebrick:1>);
 recipes.addShapeless(<betterwithaddons:whitebrick:1>, [<betterwithaddons:whitebrick>, <twilightforest:twilight_plant>]);
@@ -50,7 +78,8 @@ recipes.addShapeless(<twilightforest:nagastone_pillar_mossy>, [<twilightforest:n
 recipes.remove(<twilightforest:castle_brick:4>);
 recipes.addShapeless(<twilightforest:castle_brick:4>, [<twilightforest:castle_brick>, <twilightforest:twilight_plant>]);
 
-//Chiseled Bricks Consistency
+
+////CHISELED BRICKS////
 mods.betterwithmods.Anvil.removeShaped(<minecraft:stonebrick:3>);
 mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:whitebrick:3>);
 recipes.remove(<minecraft:quartz_block:1>);
@@ -65,7 +94,8 @@ mods.betterwithmods.Anvil.addShaped(<traverse:red_rock_bricks_chiseled> * 12, [[
 mods.betterwithmods.Anvil.addShaped(<traverse:blue_rock_bricks_chiseled> * 12, [[<traverse:blue_rock_bricks>, <traverse:blue_rock_bricks>, <traverse:blue_rock_bricks>, <traverse:blue_rock_bricks>], [<traverse:blue_rock_bricks>, null, null, <traverse:blue_rock_bricks>], [<traverse:blue_rock_bricks>, null, null, <traverse:blue_rock_bricks>], [<traverse:blue_rock_bricks>, <traverse:blue_rock_bricks>, <traverse:blue_rock_bricks>, <traverse:blue_rock_bricks>]]);
 mods.betterwithmods.Anvil.addShaped(<twilightforest:maze_stone:2> * 12, [[<twilightforest:maze_stone:1>, <twilightforest:maze_stone:1>, <twilightforest:maze_stone:1>, <twilightforest:maze_stone:1>], [<twilightforest:maze_stone:1>, null, null, <twilightforest:maze_stone:1>], [<twilightforest:maze_stone:1>, null, null, <twilightforest:maze_stone:1>], [<twilightforest:maze_stone:1>, <twilightforest:maze_stone:1>, <twilightforest:maze_stone:1>, <twilightforest:maze_stone:1>]]);
 
-//Polished Blocks Consistency
+
+////POLISHED BRICKS////
 recipes.remove(<nex:basalt:1>);
 recipes.remove(<minecraft:stone:6>);
 recipes.remove(<minecraft:stone:4>);
@@ -94,9 +124,11 @@ mods.betterwithmods.Crucible.addStoked([<minecraft:sandstone>], [<quark:sandston
 mods.betterwithmods.Crucible.addStoked([<minecraft:red_sandstone>], [<quark:sandstone_new:2>]);
 mods.betterwithmods.Crucible.addStoked([<quark:soul_sandstone>], [<quark:sandstone_new:4>]);
 
-//Tiles Consistency
 
-//Bricks Consistency
+////TILES////
+
+
+////BRICKS////
 recipes.remove(<nex:basalt:2>);
 recipes.remove(<minecraft:red_nether_brick>);
 recipes.remove(<nex:nether_brick>);
@@ -113,7 +145,8 @@ recipes.addShaped(<nex:nether_brick:1>, [[<nex:netherbrick:1>, <nex:netherbrick:
 recipes.addShaped(<nex:nether_brick:2>, [[<nex:netherbrick:2>, <nex:netherbrick:2>], [<nex:netherbrick:2>, <nex:netherbrick:2>]]);
 recipes.addShaped(<twilightforest:maze_stone:1> * 4, [[<twilightforest:maze_stone>, <twilightforest:maze_stone>], [<twilightforest:maze_stone>, <twilightforest:maze_stone>]]);
 
-//Pillar Consistency
+
+////PILLARS////
 recipes.remove(<nex:basalt:3>);
 recipes.remove(<minecraft:quartz_block:2>);
 recipes.remove(<minecraft:purpur_pillar>);
@@ -132,12 +165,14 @@ mods.betterwithmods.Anvil.addShaped(<saltmod:salt_block:2> * 8, [[<saltmod:salt_
 mods.betterwithmods.Anvil.addShaped(<twilightforest:aurora_pillar> * 8, [[<twilightforest:aurora_block>, <twilightforest:aurora_block>, <twilightforest:aurora_block>, <twilightforest:aurora_block>], [<twilightforest:aurora_block>, <twilightforest:aurora_block>, <twilightforest:aurora_block>, <twilightforest:aurora_block>]]);
 mods.betterwithmods.Anvil.addShaped(<twilightforest:castle_pillar:2> * 8, [[<twilightforest:castle_pillar:3>, <twilightforest:castle_pillar:3>, <twilightforest:castle_pillar:3>, <twilightforest:castle_pillar:3>], [<twilightforest:castle_pillar:3>, <twilightforest:castle_pillar:3>, <twilightforest:castle_pillar:3>, <twilightforest:castle_pillar:3>]]);
 
-//Slab Consistency
+
+////SLABS////
 recipes.remove(<betterwithmods:dirt_slab>);
 recipes.addShaped(<betterwithmods:dirt_slab> * 6, [[<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>]]);
 mods.jei.JEI.removeAndHide(<nex:basalt_slab:3>);
 
-//Cracked Blocks Consistency
+
+////CRACKED BLOCKS////
 furnace.addRecipe(<twilightforest:etched_nagastone_weathered>, <twilightforest:etched_nagastone>);
 furnace.addRecipe(<twilightforest:maze_stone:4>, <twilightforest:maze_stone:1>);
 furnace.addRecipe(<twilightforest:tower_wood:2>, <twilightforest:tower_wood>);
@@ -146,7 +181,8 @@ furnace.addRecipe(<twilightforest:deadrock:1>, <twilightforest:deadrock:2>);
 recipes.remove(<twilightforest:castle_brick:2>);
 furnace.addRecipe(<twilightforest:castle_brick:2>, <twilightforest:castle_brick>);
 
-//Pile Clean-up
+
+////PILES////
 recipes.remove(<minecraft:dirt>);
 recipes.remove(<minecraft:sand>);
 recipes.remove(<minecraft:sand:1>);
@@ -157,13 +193,4 @@ mods.betterwithaddons.Packing.remove(<minecraft:sand>);
 mods.betterwithaddons.Packing.remove(<minecraft:sand:1>);
 mods.betterwithaddons.Packing.remove(<minecraft:gravel>);
 mods.betterwithaddons.Packing.remove(<minecraft:soul_sand>);
-
-//Disabling Extra Fences
-recipes.remove(<nex:basalt>);
-mods.jei.JEI.removeAndHide(<quark:nether_brick_fence_gate>);
-recipes.remove(<nex:nether_brick_fence>);
-recipes.remove(<nex:nether_brick_fence:3>);
-recipes.remove(<nex:nether_brick_fence:1>);
-recipes.remove(<nex:nether_brick_fence:2>);
-recipes.remove(<nex:vanilla_fence:1>);
 

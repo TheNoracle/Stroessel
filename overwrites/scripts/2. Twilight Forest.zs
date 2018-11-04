@@ -1,4 +1,11 @@
-# CREATED USING EXTERNAL TWEAKER
+////*TWILIGHT FOREST*////
+
+
+////Disabling items
+mods.jei.JEI.removeAndHide(<twilightforest:block_storage:2>);
+
+
+////Changing recipes
 
 //Knightmetal Block on Anvil
 recipes.remove(<twilightforest:knightmetal_block>);

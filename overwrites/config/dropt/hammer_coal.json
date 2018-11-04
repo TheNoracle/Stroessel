@@ -1,0 +1,169 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minestrapp:ore_coal:0"
+          ] 
+        },
+        "harvester": {
+          "heldItemMainHand": {
+            "items": [
+              "primitivetools:primitive_hammer_swf:*",
+              "primitivetools:primitive_hammer_dwf:*",
+              "primitivetools:primitive_hammer_gwf:*",
+              "primitivetools:primitive_hammer_swv:*",
+              "primitivetools:primitive_hammer_dwv:*"
+            ]
+          }
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "minestrapp:m_chunks:0"
+            ],
+            "quantity": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:coal_ore"
+          ] 
+        },
+        "harvester": {
+          "heldItemMainHand": {
+            "items": [
+              "primitivetools:primitive_hammer_swf:*",
+              "primitivetools:primitive_hammer_dwf:*",
+              "primitivetools:primitive_hammer_gwf:*",
+              "primitivetools:primitive_hammer_swv:*",
+              "primitivetools:primitive_hammer_dwv:*"
+            ]
+          }
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "minestrapp:m_chunks:1"
+            ],
+            "quantity": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minestrapp:ore_coal:3"
+          ] 
+        },
+        "harvester": {
+          "heldItemMainHand": {
+            "items": [
+              "primitivetools:primitive_hammer_swf:*",
+              "primitivetools:primitive_hammer_dwf:*",
+              "primitivetools:primitive_hammer_gwf:*",
+              "primitivetools:primitive_hammer_swv:*",
+              "primitivetools:primitive_hammer_dwv:*"
+            ]
+          }
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "minestrapp:m_chunks:2"
+            ],
+            "quantity": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minestrapp:ore_coal:5"
+          ] 
+        },
+        "harvester": {
+          "heldItemMainHand": {
+            "items": [
+              "primitivetools:primitive_hammer_swf:*",
+              "primitivetools:primitive_hammer_dwf:*",
+              "primitivetools:primitive_hammer_gwf:*",
+              "primitivetools:primitive_hammer_swv:*",
+              "primitivetools:primitive_hammer_dwv:*"
+            ]
+          }
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "minestrapp:m_chunks:3"
+            ],
+            "quantity": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minestrapp:ore_coal:7"
+          ] 
+        },
+        "harvester": {
+          "heldItemMainHand": {
+            "items": [
+              "primitivetools:primitive_hammer_swf:*",
+              "primitivetools:primitive_hammer_dwf:*",
+              "primitivetools:primitive_hammer_gwf:*",
+              "primitivetools:primitive_hammer_swv:*",
+              "primitivetools:primitive_hammer_dwv:*"
+            ]
+          }
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "minestrapp:m_chunks:4"
+            ],
+            "quantity": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

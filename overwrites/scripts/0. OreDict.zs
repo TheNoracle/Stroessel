@@ -6,6 +6,33 @@
 //Delete Inspirations Wither Bone
 <ore:boneWithered>.remove(<inspirations:materials:7>);
 
+//Sticks and Branches
+<ore:stickPrimitive>.add(<minecraft:stick>);
+<ore:stickPrimitive>.add(<contenttweaker:branch>);
+
+//Coal
+<ore:Carbon>.add(<minecraft:coal:0>);
+<ore:Carbon>.add(<minecraft:coal:1>);
+
+//Explosives
+<ore:generalExplosive>.add(<minecraft:gunpowder>);
+<ore:generalExplosive>.add(<betterwithmods:material:29>);
+
+//Stone Chunks
+<ore:stoneChunk>.add(<minestrapp:m_chunks:0>);
+<ore:stoneChunk>.add(<minestrapp:m_chunks:1>);
+<ore:stoneChunk>.add(<minestrapp:m_chunks:2>);
+<ore:stoneChunk>.add(<minestrapp:m_chunks:3>);
+<ore:stoneChunk>.add(<minestrapp:m_chunks:4>);
+<ore:stoneChunk>.add(<minestrapp:m_chunks:5>);
+<ore:stoneChunk>.add(<minestrapp:m_chunks:6>);
+<ore:stoneChunk>.add(<contenttweaker:chunk_andesite>);
+<ore:stoneChunk>.add(<contenttweaker:chunk_diorite>);
+<ore:stoneChunk>.add(<contenttweaker:chunk_granite>);
+<ore:stoneChunk>.add(<contenttweaker:chunk_marble>);
+<ore:stoneChunk>.add(<contenttweaker:chunk_limestone>);
+<ore:stoneChunk>.add(<contenttweaker:chunk_slate>);
+
 //Raw Meat (for Ground Meat)
 <ore:foodMeat>.remove(<nex:ghast_meat_cooked>);
 <ore:foodMeat>.add(<minecraft:porkchop>);
@@ -28,13 +55,25 @@
 //Adding Charwood
 <ore:logWood>.add(<minestrapp:m_log:2>);
 
+//Adding Bear Hides
+<ore:RawHide>.add(<bearwithme:hide_bear:0>);
+<ore:RawHide>.add(<bearwithme:hide_bear:1>);
+<ore:RawHide>.add(<bearwithme:hide_bear:2>);
 
+//Fixing Coal
+<ore:Carbon>.add(<minecraft:coal>);
+<ore:Carbon>.add(<minecraft:coal:1>);
 
-////Getting rid of Frozen Oak and Redwood
+//Getting rid of Crag Rock and Red Rock
+<ore:stone>.remove(<traverse:blue_rock>);
+<ore:stone>.remove(<traverse:red_rock>);
+<ore:cobblestone>.remove(<traverse:blue_rock_cobblestone>);
+<ore:cobblestone>.remove(<traverse:red_rock_cobblestone>);
 
-//plankWood
+//Getting rid of Frozen Oak and Redwood
 <ore:plankWood>.remove(<minestrapp:m_planks>);
 <ore:plankWood>.remove(<minestrapp:m_planks:1>);
+
 
 ////Creating new entries for mouldings, sidings and corners
 

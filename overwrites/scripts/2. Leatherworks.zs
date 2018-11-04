@@ -29,7 +29,6 @@ mods.jei.JEI.removeAndHide(<leatherworks:tannin_bottle>);
 mods.jei.JEI.removeAndHide(<leatherworks:tannin_bucket>);
 mods.jei.JEI.removeAndHide(<forge:bucketfilled>.withTag({FluidName: "leatherworks:tannin", Amount: 1000}));
 mods.jei.JEI.removeAndHide(<leatherworks:crafting_leather_soaked>);
-mods.jei.JEI.removeAndHide(<leatherworks:crafting_leather_washed>);
 mods.jei.JEI.removeAndHide(<leatherworks:pack_brown>);
 mods.jei.JEI.removeAndHide(<leatherworks:leather_strip>);
 mods.jei.JEI.removeAndHide(<leatherworks:acacia_bark>);

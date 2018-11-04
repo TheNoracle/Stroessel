@@ -70,8 +70,13 @@ mods.ltt.LootTable.removeGlobalItem("withsprinkles:oldpaper");
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:lore_book");
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:golden_parachute");
 
+
 ////Minestrappolation
 mods.ltt.LootTable.removeGlobalItem("minestrapp:candy_blue");
 mods.ltt.LootTable.removeGlobalItem("minestrapp:candy_red");
 mods.ltt.LootTable.removeGlobalItem("minestrapp:candy_yellow");
+
+
+////Salty Mod
+mods.ltt.LootTable.removeGlobalItem("saltmod:salt");
 

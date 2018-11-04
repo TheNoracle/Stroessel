@@ -117,7 +117,15 @@ mods.jei.JEI.removeAndHide(<xreliquary:pedestal:10>);
 mods.jei.JEI.removeAndHide(<xreliquary:pedestal_passive:14>);
 mods.jei.JEI.removeAndHide(<xreliquary:pedestal_passive:15>);
 mods.jei.JEI.removeAndHide(<xreliquary:glowing_bread>);
-
+recipes.remove(<xreliquary:magazine:1>);
+recipes.remove(<xreliquary:magazine:2>);
+recipes.remove(<xreliquary:magazine:3>);
+recipes.remove(<xreliquary:magazine:4>);
+recipes.remove(<xreliquary:magazine:5>);
+recipes.remove(<xreliquary:magazine:6>);
+recipes.remove(<xreliquary:magazine:7>);
+recipes.remove(<xreliquary:magazine:8>);
+recipes.remove(<xreliquary:magazine:9>);
 
 
 ////Fixing regular drops being craftable out of rare ones
@@ -177,13 +185,12 @@ recipes.addShaped(<xreliquary:mercy_cross>, [[<minecraft:gold_ingot>, <xreliquar
 
 //Holy Hand Grenade
 recipes.remove(<xreliquary:holy_hand_grenade>);
-recipes.addShaped(<xreliquary:holy_hand_grenade>, [[null, <betterwithmods:material:28>, null], [<minecraft:gold_nugget>, <xreliquary:glowing_water>, <minecraft:gold_nugget>], [<minecraft:gold_nugget>, <betterwithmods:material:29>, <minecraft:gold_nugget>]]);
-recipes.addShaped(<xreliquary:holy_hand_grenade>, [[null, <betterwithmods:material:28>, null], [<minecraft:gold_nugget>, <xreliquary:glowing_water>, <minecraft:gold_nugget>], [<minecraft:gold_nugget>, <minecraft:gunpowder>, <minecraft:gold_nugget>]]);
+recipes.addShaped(<xreliquary:holy_hand_grenade>, [[null, <betterwithmods:material:28>, null], [<minecraft:gold_nugget>, <xreliquary:glowing_water>, <minecraft:gold_nugget>], [<minecraft:gold_nugget>, <ore:generalExplosive>, <minecraft:gold_nugget>]]);
 
 //Witherless Rose
-recipes.addShapeless(<withershards:shard_nether_star> * 4, [<minecraft:nether_star>]);
+recipes.addShapeless(<contenttweaker:netherstar_shard> * 4, [<minecraft:nether_star>]);
 recipes.remove(<xreliquary:witherless_rose>);
-recipes.addShaped(<xreliquary:witherless_rose>, [[<withershards:shard_nether_star>, <withershards:shard_nether_star>, <withershards:shard_nether_star>], [<withershards:shard_nether_star>, <minecraft:red_flower>, <withershards:shard_nether_star>], [<withershards:shard_nether_star>, <withershards:shard_nether_star>, <withershards:shard_nether_star>]]);
+recipes.addShaped(<xreliquary:witherless_rose>, [[<contenttweaker:netherstar_shard>, <contenttweaker:netherstar_shard>, <contenttweaker:netherstar_shard>], [<contenttweaker:netherstar_shard>, <minecraft:red_flower>, <contenttweaker:netherstar_shard>], [<contenttweaker:netherstar_shard>, <contenttweaker:netherstar_shard>, <contenttweaker:netherstar_shard>]]);
 
 //Kraken Shell
 recipes.remove(<xreliquary:kraken_shell>);
@@ -210,7 +217,7 @@ recipes.addShapeless(<xreliquary:shears_of_winter>, [<minecraft:shears>, <xreliq
 
 //Coin of Fortune
 recipes.remove(<xreliquary:fortune_coin>);
-recipes.addShapeless(<xreliquary:fortune_coin>, [<ordinarycoins:coingold>, <minecraft:experience_bottle>, <twilightforest:charm_of_keeping_2>]);
+recipes.addShapeless(<xreliquary:fortune_coin>, [<contenttweaker:coin_golden>, <minecraft:experience_bottle>, <twilightforest:charm_of_keeping_2>]);
 
 //Serpent Staff
 recipes.remove(<xreliquary:serpent_staff>);

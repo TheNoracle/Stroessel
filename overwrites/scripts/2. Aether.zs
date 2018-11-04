@@ -1,6 +1,10 @@
 ////*AETHER*////
 
 
+////Disabling items
+mods.jei.JEI.removeAndHide(<aether_legacy:lore_book>);
+
+
 ////Changing recipes
 
 //Gloves

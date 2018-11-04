@@ -110,4 +110,4 @@ recipes.addShaped(<ebwizardry:apprentice_wand>, [[null, null, <minecraft:ender_p
 recipes.addShaped(<ebwizardry:advanced_wand>, [[null, null, <aether_legacy:golden_amber>], [null, <ebwizardry:apprentice_wand>, null], [<nex:amethyst_crystal>, null, null]]);
 
 //Master Wand
-recipes.addShaped(<ebwizardry:master_wand>, [[null, null, <minecraft:nether_star>], [null, <ebwizardry:advanced_wand>, null], [<withershards:shard_nether_star>, null, null]]);
+recipes.addShaped(<ebwizardry:master_wand>, [[null, null, <minecraft:nether_star>], [null, <ebwizardry:advanced_wand>, null], [<contenttweaker:netherstar_shard>, null, null]]);

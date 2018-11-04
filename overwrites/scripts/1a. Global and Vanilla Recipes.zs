@@ -1,4 +1,25 @@
-//Basic Recipes!
+////*MOSTLY VANILLA RECIPES*////
+
+
+////Hiding Items
+mods.jei.JEI.removeAndHide(<minecraft:wooden_axe>);
+mods.jei.JEI.removeAndHide(<minestrapp:wooden_dagger>);
+mods.jei.JEI.removeAndHide(<minecraft:wooden_hoe>);
+mods.jei.JEI.removeAndHide(<minestrapp:wooden_mace>);
+mods.jei.JEI.removeAndHide(<minecraft:wooden_shovel>);
+mods.jei.JEI.removeAndHide(<minecraft:wooden_sword>);
+mods.jei.JEI.removeAndHide(<minecraft:stone_axe>);
+mods.jei.JEI.removeAndHide(<minestrapp:stone_dagger>);
+mods.jei.JEI.removeAndHide(<minecraft:stone_hoe>);
+mods.jei.JEI.removeAndHide(<minecraft:stone_shovel>);
+mods.jei.JEI.removeAndHide(<minecraft:stone_sword>);
+mods.jei.JEI.removeAndHide(<minecraft:leather>);
+
+////Basic Recipes!
+
+//New Pickaxes
+recipes.remove(<minecraft:wooden_pickaxe>);
+recipes.addShaped(<minecraft:wooden_pickaxe>, [[<primitivetools:flint_point>, <ore:cordagePlant>, <primitivetools:flint_flake>], [null, <ore:stickPrimitive>, null], [null, <ore:stickPrimitive>, null]]);
 
 //Craftable Horse Armor
 recipes.addShaped(<minecraft:iron_horse_armor>, [[null, null, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:wool:15>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);

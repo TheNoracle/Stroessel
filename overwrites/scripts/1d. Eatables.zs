@@ -134,5 +134,10 @@ recipes.addShapeless(<saltmod:hufc>, [<minecraft:beetroot>, <ore:cookedPotato>, 
 recipes.addShapeless(<saltmod:salt_hufc>, [<minecraft:beetroot>, <ore:cookedPotato>, <minecraft:carrot>, <minecraft:fish>, <betterwithmods:raw_egg>, <minecraft:red_flower:2>, <saltmod:salt_pinch>, <minecraft:bowl>]);
 recipes.addShapeless(<saltmod:salt_hufc>, [<saltmod:hufc>, <saltmod:salt_pinch>]);
 
+//Beetroot Salad
+recipes.remove(<saltmod:salt_beetroot_salad>);
+recipes.addShapeless(<saltmod:salt_beetroot_salad>, [<minecraft:beetroot>, <minecraft:potato>, <minecraft:carrot>, <saltmod:salt_pinch>, <minecraft:bowl>]);
+recipes.addShapeless(<saltmod:salt_beetroot_salad>, [<saltmod:beetroot_salad>, <saltmod:salt_pinch>]);
+
 
 

@@ -50,6 +50,14 @@
 <minecraft:quartz_block:2>.displayName = "Quartz Pillar";
 <minecraft:wooden_button>.displayName = "Oak Button";
 <minecraft:redstone>.displayName = "Redstone Dust";
+<minecraft:fish>.displayName = "Raw Cod";
+<minecraft:cooked_fish>.displayName = "Cooked Cod";
+<minecraft:fish:2>.displayName = "Raw Clownfish";
+<minecraft:fish:3>.displayName = "Raw Pufferfish";
+<minecraft:cookie>.displayName = "Chocolate Chip Cookie";
+<minecraft:shield>.displayName = "Iron Shield";
+<minecraft:wooden_pickaxe>.displayName = "Primitive Pickaxe";
+<minecraft:stone_pickaxe>.displayName = "Bone Pickaxe";
 
 //Twilight Forest
 <twilightforest:trophy>.displayName = "Naga Head";
@@ -92,6 +100,7 @@
 <aether_legacy:white_flower>.displayName = "Sky Lily";
 <aether_legacy:purple_flower>.displayName = "Mallow";
 <aether_legacy:skyroot_plank>.displayName = "Skyroot Planks";
+<aether_legacy:quicksoil_glass>.displayName = "Quickglass";
 
 //Minestrappolation
 <minestrapp:plate_metal:2>.displayName = "Iron Plate";
@@ -105,7 +114,7 @@
 <minestrapp:torite_dagger>.displayName = "Refined Dagger";
 <minestrapp:steel_mace>.displayName = "Steelleaf Mace";
 <minestrapp:steel_dagger>.displayName = "Steelleaf Dagger";
-
+<minestrapp:fried_fish>.displayName = "Fried Cod";
 
 //Better with Mods
 <betterwithmods:material:7>.displayName = "Scoured Hide";
@@ -157,12 +166,36 @@
 <saltmod:salt_block>.displayName = "Block of Salt";
 <saltmod:salt_block:2>.displayName = "Salt Pillar";
 <saltmod:potato_mushroom>.displayName = "Potatoes with Mushroom";
-<saltmod:salt_potato_mushroom>.displayName = "Salty Potatoes with Mushroom";
+<saltmod:salt_potato_mushroom>.displayName = "Salted Potatoes with Mushroom";
 <saltmod:saltwort_mutton>.displayName = "Cooked Mutton with Saltwort";
 <saltmod:saltwort_porkchop>.displayName = "Cooked Porkchop with Saltwort";
-<saltmod:saltwort_beef>.displayName = "Beef with Saltwort";
+<saltmod:saltwort_beef>.displayName = "Steak with Saltwort";
 <saltmod:tf_saltwort_meef_steak>.displayName = "Meef Steak with Saltwort";
 <saltmod:tf_saltwort_venison>.displayName = "Venison Steak with Saltwort";
+<saltmod:salt_beef_cooked>.displayName = "Salted Steak";
+<saltmod:salt_porkchop_cooked>.displayName = "Salted Cooked Porkchop";
+<saltmod:salt_mutton_cooked>.displayName = "Salted Cooked Mutton";
+<saltmod:salt_potato_baked>.displayName = "Salted Baked Potato";
+<saltmod:salt_chicken_cooked>.displayName = "Salted Cooked Chicken";
+<saltmod:salt_rabbit_cooked>.displayName = "Salted Cooked Rabbit";
+<saltmod:salt_fish_cod_cooked>.displayName = "Salted Cooked Cod";
+<saltmod:salt_fish_salmon_cooked>.displayName = "Salted Cooked Salmon";
+<saltmod:salt_rabbit_stew>.displayName = "Salted Rabbit Stew";
+<saltmod:salt_mushroom_stew>.displayName = "Salted Mushroom Stew";
+<saltmod:salt_beetroot_soup>.displayName = "Salted Beetroot Soup";
+<saltmod:salt_vegetable_stew>.displayName = "Salted Vegetable Stew";
+<saltmod:salt_fish_soup>.displayName = "Salted Fish Soup";
+<saltmod:salt_fish_salmon_soup>.displayName = "Salted Salmon Soup";
+<saltmod:salt_beetroot_salad>.displayName = "Salted Beetroot Salad";
+<saltmod:salt_hufc>.displayName = "Salted Herring under a Fur Coat";
+<saltmod:salt_dandelion_salad>.displayName = "Salted Dandelion Salad";
+<saltmod:salt_wheat_sprouts>.displayName = "Salted Wheat Sprouts";
+<saltmod:tf_salt_venison_cooked>.displayName = "Salted Venison Steak";
+<saltmod:tf_salt_meef_steak>.displayName = "Salted Meef Steak";
+<saltmod:tf_salt_meef_stroganoff>.displayName = "Salted Meat Stroganoff";
+<saltmod:tf_salt_hydra_chop>.displayName = "Salted Hydra Chop";
+
+
 
 //Combustive Fishing
 <combustfish:golden_rod>.displayName = "Blazing Fishing Rod";
@@ -177,9 +210,11 @@
 
 //Better with Add-ons
 <betterwithaddons:chute>.displayName = "Dividing Hopper";
+<betterwithaddons:bolt:4>.displayName = "Bolt of Washed Hide";
 
 //Vanilla Automation
 <va:filteredhopper>.displayName = "Grated Hopper";
+<va:xphopper>.displayName = "Experience Hopper";
 
 //Inspirations
 <inspirations:materials:6>.displayName = "Silverfish Dust";
@@ -190,13 +225,16 @@
 //Endless Traverse
 <endlesstraverse:coal_nugget>.displayName = "Coal Nugget";
 <endlesstraverse:coal_nugget:1>.displayName = "Charcoal Nugget";
-<endlesstraverse:torch_tiny>.displayName = "Dim Torch";
+<endlesstraverse:milk_bottle>.displayName = "Milk Bottle";
 
 //Mob Drops Blocks
 <omm:blazerodbundle>.displayName = "Bundle of Blaze Rods";
 
 //NetherEx
 <nex:basalt:1>.displayName = "Polished Basalt";
+
+//Progressive Core
+<progressivecore:smelter4>.displayName = "Brick Oven";
 
 //Saplings to Seeds
 <minecraft:sapling>.displayName = "Acorn";
@@ -206,7 +244,6 @@
 <minecraft:sapling:4>.displayName = "Acacia Seed";
 <minecraft:sapling:5>.displayName = "Dark Acorn";
 <traverse:fir_sapling>.displayName = "Fir Cone";
-<minecraft:sapling>.displayName = "Acorn";
 <twilightforest:twilight_sapling>.displayName = "Sickly Acorn";
 <twilightforest:twilight_sapling:1>.displayName = "Canopy Pod";
 <twilightforest:twilight_sapling:2>.displayName = "Mangrove Catkin";
@@ -217,3 +254,12 @@
 <twilightforest:twilight_sapling:7>.displayName = "Miner's Capsule";
 <twilightforest:twilight_sapling:8>.displayName = "Pod of Sorting";
 <twilightforest:twilight_sapling:9>.displayName = "Rainbow Acorn";
+<aether_legacy:skyroot_sapling>.displayName = "Skyroot Seed";
+<aether_legacy:golden_oak_sapling>.displayName = "Golden Acorn";
+<betterwithmods:blood_sapling>.displayName = "Fleshseed";
+<betterwithaddons:sapling_luretree>.displayName = "Alicio Catkin";
+<stygian:endcanopysapling>.displayName = "Wyrmwood Seed";
+<traverse:red_autumnal_sapling>.displayName = "Red Autumn Acorn";
+<traverse:brown_autumnal_sapling>.displayName = "Brown Autumn Acorn";
+<traverse:orange_autumnal_sapling>.displayName = "Orange Autumn Acorn";
+<traverse:yellow_autumnal_sapling>.displayName = "Yellow Autumn Acorn";

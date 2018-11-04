@@ -279,6 +279,8 @@ mods.betterwithmods.Cauldron.remove([<betterwithaddons:congealed:4>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:congealed:5>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:congealed:1>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:congealed:2>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:food_clownfish_cooked>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:food_pufferfish_baked>]);
 
 
 //Disabling in Furnace
@@ -300,6 +302,10 @@ mods.betterwithmods.FilteredHopper.removeRecipeByInput(<minecraft:slime_ball> * 
 
 
 ////Recipe Changes
+
+//Cooked Fish in Furnace
+furnace.addRecipe(<betterwithaddons:food_clownfish_cooked>, <minecraft:fish:2>);
+furnace.addRecipe(<betterwithaddons:food_pufferfish_baked>, <minecraft:fish:3>);
 
 //Disabling easy recipes for packing
 recipes.remove(<betterwithaddons:bolt>);
@@ -325,4 +331,15 @@ recipes.remove(<betterwithaddons:crate:4>);
 //More meat can be Grounded
 mods.betterwithmods.Mill.remove([<betterwithaddons:food_ground_meat>]);
 mods.betterwithmods.Mill.add(<betterwithaddons:food_ground_meat> * 2, [<ore:foodMeat>]);
+
+//Deleting recipes for disabled packad items
+recipes.remove(<minecraft:brown_mushroom>);
+recipes.remove(<minecraft:red_mushroom>);
+recipes.remove(<minecraft:nether_wart>);
+recipes.remove(<minecraft:sapling:4>);
+recipes.remove(<minecraft:sapling>);
+recipes.remove(<minecraft:sapling:2>);
+recipes.remove(<minecraft:sapling:5>);
+recipes.remove(<minecraft:sapling:3>);
+recipes.remove(<minecraft:sapling:1>);
 
