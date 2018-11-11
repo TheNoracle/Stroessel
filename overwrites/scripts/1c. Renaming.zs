@@ -161,6 +161,15 @@
 //Waystones
 <waystones:warp_stone>.displayName = "Ender Staff";
 
+//Primitive Tools
+<primitivetools:leather_strip>.displayName = "Hide Strap";
+<primitivetools:primitive_hammer_swf>.displayName = "Andesite Hammer";
+<primitivetools:primitive_hammer_dwf>.displayName = "Diorite Hammer";
+<primitivetools:primitive_hammer_gwf>.displayName = "Granite Hammer";
+<primitivetools:primitive_hammer_swv>.displayName = "Limestone Hammer";
+<primitivetools:primitive_hammer_dwv>.displayName = "Marble Hammer";
+<primitivetools:primitive_hammer_gwv>.displayName = "Slate Hammer";
+
 //Salty Mod
 <saltmod:saltwort_pie>.displayName = "Saltwort Pie";
 <saltmod:salt_block>.displayName = "Block of Salt";
@@ -195,8 +204,6 @@
 <saltmod:tf_salt_meef_stroganoff>.displayName = "Salted Meat Stroganoff";
 <saltmod:tf_salt_hydra_chop>.displayName = "Salted Hydra Chop";
 
-
-
 //Combustive Fishing
 <combustfish:golden_rod>.displayName = "Blazing Fishing Rod";
 
@@ -218,6 +225,7 @@
 
 //Inspirations
 <inspirations:materials:6>.displayName = "Silverfish Dust";
+<inspirations:north_compass>.displayName = "Magnetic Compass";
 
 //Sprinkles
 <withsprinkles:enderchest>.displayName = "Dragon Mirror";
@@ -232,9 +240,6 @@
 
 //NetherEx
 <nex:basalt:1>.displayName = "Polished Basalt";
-
-//Progressive Core
-<progressivecore:smelter4>.displayName = "Brick Oven";
 
 //Saplings to Seeds
 <minecraft:sapling>.displayName = "Acorn";

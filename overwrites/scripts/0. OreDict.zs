@@ -18,6 +18,10 @@
 <ore:generalExplosive>.add(<minecraft:gunpowder>);
 <ore:generalExplosive>.add(<betterwithmods:material:29>);
 
+//Fiery Liquids
+<ore:fieryLiquid>.add(<twilightforest:fiery_blood>);
+<ore:fieryLiquid>.add(<twilightforest:fiery_tears>);
+
 //Stone Chunks
 <ore:stoneChunk>.add(<minestrapp:m_chunks:0>);
 <ore:stoneChunk>.add(<minestrapp:m_chunks:1>);

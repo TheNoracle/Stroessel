@@ -178,7 +178,7 @@ mods.jei.JEI.removeAndHide(<minestrapp:halloween_chandelier>);
 //Bronze Plate
 mods.jei.JEI.removeAndHide(<minestrapp:plate_metal:1>);
 
-//Pipies
+//Pipes
 mods.jei.JEI.removeAndHide(<minestrapp:pipe>);
 mods.jei.JEI.removeAndHide(<minestrapp:covered_pipe_stone>);
 mods.jei.JEI.removeAndHide(<minestrapp:covered_pipe_reefstone>);
@@ -277,7 +277,10 @@ mods.jei.JEI.removeAndHide(<minestrapp:fire_legs>);
 mods.jei.JEI.removeAndHide(<minestrapp:fire_pickaxe>);
 mods.jei.JEI.removeAndHide(<minestrapp:fire_shovel>);
 mods.jei.JEI.removeAndHide(<minestrapp:fire_sword>);
-mods.jei.JEI.removeAndHide(<minestrapp:pie_crust>);
+mods.jei.JEI.removeAndHide(<minestrapp:tin_helm>);
+mods.jei.JEI.removeAndHide(<minestrapp:tin_chest>);
+mods.jei.JEI.removeAndHide(<minestrapp:tin_legs>);
+mods.jei.JEI.removeAndHide(<minestrapp:tin_feet>);
 
 //Food in Bread Bowl
 mods.jei.JEI.removeAndHide(<minestrapp:bread_bowl>);
@@ -305,6 +308,12 @@ mods.jei.JEI.removeAndHide(<minestrapp:lucky_sushi>);
 mods.jei.JEI.removeAndHide(<minestrapp:onigiri>);
 mods.jei.JEI.removeAndHide(<minestrapp:onigiri>);
 
+//Mixed Bunch
+mods.jei.JEI.removeAndHide(<minestrapp:pie_crust>);
+
+
+
+
 ////Recipes changes
 
 //Plates
@@ -327,6 +336,11 @@ recipes.remove(<minestrapp:hang_glider_wood>);
 recipes.addShaped(<minestrapp:hang_glider_wood>, [[<minestrapp:rope>, <ore:plankWood>, <minestrapp:rope>], [<ore:plankWood>, <minestrapp:m_tech_component:1>, <ore:plankWood>], [<minestrapp:m_tech_component:1>, <betterwithmods:material:36>, <minestrapp:m_tech_component:1>]]);
 recipes.remove(<minestrapp:hang_glider_steel>);
 mods.betterwithmods.Anvil.addShaped(<minestrapp:hang_glider_steel>, [[<minestrapp:rope>, <betterwithmods:material:14>, <minestrapp:m_tech_component:1>, <minestrapp:m_tech_component:1>], [<betterwithmods:material:14>, <minestrapp:m_tech_component:1>, <minestrapp:m_tech_component:1>, <betterwithmods:material:36>], [<betterwithmods:material:14>, <minestrapp:m_tech_component:1>, <minestrapp:m_tech_component:1>, <betterwithmods:material:36>], [<minestrapp:rope>, <betterwithmods:material:14>, <minestrapp:m_tech_component:1>, <minestrapp:m_tech_component:1>]]);
+
+//Copper Ingots to Nuggets and vice versa
+recipes.addShaped(<minestrapp:m_ingot>, [[<contenttweaker:copper_nugget>, <contenttweaker:copper_nugget>, <contenttweaker:copper_nugget>], [<contenttweaker:copper_nugget>, <contenttweaker:copper_nugget>, <contenttweaker:copper_nugget>], [<contenttweaker:copper_nugget>, <contenttweaker:copper_nugget>, <contenttweaker:copper_nugget>]]);
+recipes.addShapeless(<contenttweaker:copper_nugget> * 9, [<minestrapp:m_ingot>]);
+mods.betterwithmods.StokedCrucible.add(<minestrapp:m_ingot>, [<contenttweaker:copper_nugget> * 9]);
 
 //Wing Segment
 recipes.remove(<minestrapp:m_tech_component:1>);
@@ -383,6 +397,19 @@ recipes.addShapeless(<minestrapp:beef_jerky>, [<minecraft:beef>, <saltmod:salt_p
 recipes.addShapeless(<minestrapp:pork_jerky>, [<minecraft:porkchop>, <saltmod:salt_pinch>, <saltmod:salt_pinch>, <saltmod:salt_pinch>]);
 recipes.addShapeless(<minestrapp:cod_jerky>, [<minecraft:fish>, <saltmod:salt_pinch>, <saltmod:salt_pinch>, <saltmod:salt_pinch>]);
 recipes.addShapeless(<minestrapp:salmon_jerky>, [<minecraft:fish:1>, <saltmod:salt_pinch>, <saltmod:salt_pinch>, <saltmod:salt_pinch>]);
+
+//Dough in Pot
+recipes.remove(<minestrapp:dough>);
+mods.inspirations.Cauldron.addFluidRecipe(<minestrapp:dough>, <betterwithmods:raw_pastry:3>, <liquid:purified_water>);
+
+//Frying food in the Cauldron
+mods.betterwithmods.Cauldron.addUnstoked([<minecraft:fish>, <minestrapp:grease>], [<minestrapp:fried_fish>]);
+mods.betterwithmods.Cauldron.addUnstoked([<minecraft:fish:1>, <minestrapp:grease>], [<minestrapp:fried_salmon>]);
+mods.betterwithmods.Cauldron.addUnstoked([<minecraft:potato>, <minestrapp:grease>], [<minestrapp:fries>]);
+mods.betterwithmods.Cauldron.addUnstoked([<minecraft:porkchop>, <minestrapp:grease>], [<minestrapp:bacon>]);
+
+//Grilled Corn on the Cob
+furnace.addRecipe(<minestrapp:grilled_corn>, <minestrapp:corn_on_the_cob>);
 
 
 ////Total Weapon Tweak

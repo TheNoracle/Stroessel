@@ -20,6 +20,8 @@ mods.jei.JEI.removeAndHide(<minecraft:leather>);
 //New Pickaxes
 recipes.remove(<minecraft:wooden_pickaxe>);
 recipes.addShaped(<minecraft:wooden_pickaxe>, [[<primitivetools:flint_point>, <ore:cordagePlant>, <primitivetools:flint_flake>], [null, <ore:stickPrimitive>, null], [null, <ore:stickPrimitive>, null]]);
+recipes.remove(<minecraft:stone_pickaxe>);
+recipes.addShaped(<minecraft:stone_pickaxe>, [[<contenttweaker:bone_shard>, <minecraft:bone>, <contenttweaker:bone_shard>], [null, <primitivetools:leather_strip>, null], [null, <ore:stickWood>, null]]);
 
 //Craftable Horse Armor
 recipes.addShaped(<minecraft:iron_horse_armor>, [[null, null, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:wool:15>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
@@ -154,5 +156,6 @@ mods.betterwithmods.Mill.addRecipe([<nex:bone_sliver>], [<minecraft:dye:15> * 6]
 mods.betterwithmods.Mill.addRecipe([<nex:bone_chunk>], [<minecraft:dye:15> * 3]);
 mods.betterwithmods.Mill.addRecipe([<combustfish:bone_fish>], [<minecraft:dye:15> * 3]);
 mods.betterwithmods.Mill.addRecipe([<jaff:fish_bones>], [<minecraft:dye:15>]);
-mods.betterwithmods.Mill.add(<quark:black_ash> * 3, [<nex:wither_bone>]);
+mods.betterwithmods.Mill.addRecipe([<nex:wither_bone>], [<quark:black_ash> * 3]);
+mods.betterwithmods.Mill.addRecipe([<xreliquary:mob_ingredient:1>], [<quark:black_ash> * 6]);
 mods.betterwithmods.Mill.addRecipe([<minecraft:skull:1>], [<quark:black_ash> * 9]);

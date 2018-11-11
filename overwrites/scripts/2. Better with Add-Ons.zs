@@ -343,3 +343,22 @@ recipes.remove(<minecraft:sapling:5>);
 recipes.remove(<minecraft:sapling:3>);
 recipes.remove(<minecraft:sapling:1>);
 
+//Greatbow with Rope
+mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:greatbow>);
+mods.betterwithmods.Anvil.addShaped(<betterwithaddons:greatbow>, [[null, <betterwithmods:material:36>, <betterwithmods:material:36>, null], [<betterwithmods:material:36>, null, null, <betterwithmods:material:36>], [<minestrapp:rope>, <minestrapp:rope>, <minestrapp:rope>, <minestrapp:rope>]]);
+
+//More Greatarrow Heads
+mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:material>);
+mods.betterwithmods.Anvil.addShaped(<betterwithaddons:material> * 6, [[null, <betterwithmods:material:30>, <betterwithmods:material:30>, <betterwithmods:material:30>], [<betterwithmods:material:30>, <betterwithmods:material:30>, <betterwithmods:material:30>, null], [null, <betterwithmods:material:30>, <betterwithmods:material:30>, <betterwithmods:material:30>]]);
+
+//New Greatarrow recipes
+recipes.remove(<betterwithaddons:greatarrow>);
+recipes.addShaped(<betterwithaddons:greatarrow> * 2, [[<betterwithaddons:material>], [<betterwithmods:material:36>], [<ore:feather>]]);
+mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:greatarrow_lightning>);
+mods.betterwithmods.Anvil.addShaped(<betterwithaddons:greatarrow_lightning> * 2, [[null, <betterwithmods:material:25>, null, null], [<betterwithmods:material:25>, <betterwithaddons:material>, <betterwithmods:material:36>, <ore:feather>], [null, <betterwithmods:material:25>, null, null]]);
+mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:greatarrow_destruction>);
+mods.betterwithmods.Anvil.addShaped(<betterwithaddons:greatarrow_destruction> * 2, [[<betterwithmods:material:30>, <betterwithmods:material:30>, null, null], [<betterwithmods:material:30>, <betterwithaddons:material>, <betterwithmods:material:36>, <ore:feather>], [<betterwithmods:material:30>, <betterwithmods:material:30>, null, null]]);
+
+//Making Bolts of Washed instead of Scoured Hide (WIP: The initial recipe is not being removed)
+mods.betterwithaddons.Spindle.remove(<betterwithaddons:bolt:4>);
+mods.betterwithaddons.Spindle.add([<betterwithaddons:bolt:4>], <leatherworks:crafting_leather_washed> * 8, true);

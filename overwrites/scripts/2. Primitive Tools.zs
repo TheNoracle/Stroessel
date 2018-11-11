@@ -59,3 +59,17 @@ recipes.addShaped(<primitivetools:primitive_knife_cwf>, [[<primitivetools:flint_
 //Hatchet
 recipes.remove(<primitivetools:primitive_hatchet_cwf>);
 recipes.addShaped(<primitivetools:primitive_hatchet_cwf>, [[<primitivetools:flint_shard>, <ore:cordagePlant>], [null, <ore:stickPrimitive>]]);
+
+//Hammers
+recipes.remove(<primitivetools:primitive_hammer_swf>);
+recipes.remove(<primitivetools:primitive_hammer_dwf>);
+recipes.remove(<primitivetools:primitive_hammer_gwf>);
+recipes.remove(<primitivetools:primitive_hammer_swv>);
+recipes.remove(<primitivetools:primitive_hammer_dwv>);
+recipes.remove(<primitivetools:primitive_hammer_gwv>);
+recipes.addShaped(<primitivetools:primitive_hammer_swf>, [[<contenttweaker:chunk_andesite>, <primitivetools:leather_strip>, <contenttweaker:chunk_andesite>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<primitivetools:primitive_hammer_dwf>, [[<contenttweaker:chunk_diorite>, <primitivetools:leather_strip>, <contenttweaker:chunk_diorite>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<primitivetools:primitive_hammer_gwf>, [[<contenttweaker:chunk_granite>, <primitivetools:leather_strip>, <contenttweaker:chunk_granite>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<primitivetools:primitive_hammer_swv>, [[<contenttweaker:chunk_limestone>, <primitivetools:leather_strip>, <contenttweaker:chunk_limestone>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<primitivetools:primitive_hammer_dwv>, [[<contenttweaker:chunk_marble>, <primitivetools:leather_strip>, <contenttweaker:chunk_marble>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<primitivetools:primitive_hammer_gwv>, [[<contenttweaker:chunk_slate>, <primitivetools:leather_strip>, <contenttweaker:chunk_slate>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);

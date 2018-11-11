@@ -52,6 +52,7 @@ mods.jei.JEI.removeAndHide(<betterwithmods:raw_pastry:2>);
 mods.jei.JEI.removeAndHide(<betterwithmods:raw_pastry>);
 mods.jei.JEI.removeAndHide(<betterwithmods:material:31>);
 mods.jei.JEI.removeAndHide(<betterwithmods:material:7>);
+mods.jei.JEI.removeAndHide(<betterwithmods:material:33>);
 
 //Faulty Miniblocks
 mods.jei.JEI.removeAndHide(<betterwithmods:corner_wood>.withTag({texture: {Name: "minecraft:bookshelf"}}));
@@ -158,8 +159,6 @@ mods.betterwithmods.Cauldron.remove([<betterwithmods:material:6>]);
 mods.betterwithmods.Cauldron.remove([<betterwithmods:material:32>]);
 mods.betterwithmods.Cauldron.addUnstoked([<leatherworks:crafting_leather_washed>, <leatherworks:tannin_ball> * 4], [<betterwithmods:material:6>]);
 mods.betterwithmods.Cauldron.addUnstoked([<leatherworks:crafting_leather_washed>, <betterwithmods:material:5>], [<betterwithmods:material:6>]);
-mods.betterwithmods.Cauldron.addUnstoked([<betterwithmods:material:33> * 2, <leatherworks:tannin_ball> * 4], [<betterwithmods:material:32> * 2]);
-mods.betterwithmods.Cauldron.addUnstoked([<betterwithmods:material:33> * 2, <betterwithmods:material:5>], [<betterwithmods:material:32> * 2]);
 
 //Glue
 mods.betterwithmods.Cauldron.addStoked([<ore:rawhide>], [<betterwithmods:material:12>]);
@@ -176,6 +175,10 @@ recipes.addShaped(<betterwithmods:wicker>, [[<ore:stickWood>, <ore:cordagePlant>
 recipes.addShapeless(<antiqueatlas:empty_antique_atlas>, [<antiqueatlas:antique_atlas>, <betterwithmods:material:21>]);
 recipes.addShapeless(<minecraft:writable_book>, [<minecraft:written_book>, <betterwithmods:material:21>]);
 recipes.addShapeless(<minecraft:book>, [<minecraft:enchanted_book>, <betterwithmods:material:21>]);
+
+//More Arrows
+recipes.remove(<betterwithmods:broadhead_arrow>);
+recipes.addShaped(<betterwithmods:broadhead_arrow> * 2, [[<betterwithmods:material:43>], [<ore:stickWood>], [<ore:feather>]]);
 
 
 ////Saw

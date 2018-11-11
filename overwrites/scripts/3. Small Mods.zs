@@ -96,12 +96,13 @@ recipes.addShaped(<impart:item_tethering>, [[<minecraft:gold_nugget>, <minecraft
 mods.jei.JEI.removeAndHide(<inspirations:materials:8>);
 mods.jei.JEI.removeAndHide(<inspirations:stone_crook>);
 mods.jei.JEI.removeAndHide(<inspirations:materials:7>);
-mods.jei.JEI.removeAndHide(<inspirations:north_compass>);
 mods.jei.JEI.removeAndHide(<inspirations:path:1>);
 mods.jei.JEI.removeAndHide(<inspirations:materials:5>);
 mods.jei.JEI.removeAndHide(<inspirations:materials:4>);
 recipes.remove(<inspirations:collector>);
 recipes.addShaped(<inspirations:collector>, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, <jaff:wooden_fishing_rod>, <ore:cobblestone>], [<ore:cobblestone>, <betterwithmods:material:34>, <ore:cobblestone>]]);
+recipes.remove(<inspirations:north_compass>);
+recipes.addShaped(<inspirations:north_compass>, [[null, <minecraft:iron_ingot>, null], [<minecraft:iron_ingot>, <minestrapp:m_tech_component:6>, <minecraft:iron_ingot>], [null, <minecraft:iron_ingot>, null]]);
 
 
 ////MOB DROP STORAGE////
